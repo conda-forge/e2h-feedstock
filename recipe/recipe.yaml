@@ -1,6 +1,6 @@
 context:
   name: e2h
-  version: "1.0.0"
+  version: "1.1.0"
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://gitlab.com/earthscope/public/epic/passoft/e2h/-/archive/v${{ version }}/e2h-v${{ version }}.tar.gz
-  sha256: e179e5644a30b2236f351d59bc648a2aab64382fb8b50e6eaea69c7a2be64d6f 
+  sha256: 101e062cff0329a69af8d4e9884454666b36c879a05c5d11b2ea1970fd301c41
 
 build:
   noarch: python
